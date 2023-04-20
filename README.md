@@ -1,2 +1,2 @@
-# circuitpython_applications_staging
+# circuitpython_applications
 Application examples for CircuitPython
