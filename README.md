@@ -13,7 +13,7 @@
 
 # Silicon Labs CircuitPython Applications #
 
-[![Version Badge](https://img.shields.io/badge/-v1.0.0-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
+[![Version Badge](https://img.shields.io/badge/-v1.0.1-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
 [![CircuitPython](https://img.shields.io/badge/CircuitPython-v8.2.0+-green)](https://circuitpython.org/downloads?q=silabs)
 ![License badge](https://img.shields.io/badge/License-Zlib-green)
 

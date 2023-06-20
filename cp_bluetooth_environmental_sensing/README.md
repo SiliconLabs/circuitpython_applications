@@ -36,11 +36,17 @@ Note: Any other BLE-capable device can be a client device, for instance a simple
 
 The environmental combo, OLED display and SparkFun Thing Plus Matter board can easily connect to each other via Qwiic I2C connector.
 
+## Prerequisites ##
+
+Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpython.md).
+
 ## Setup ##
 
 To run the example you need to install **Thonny** editor and then follow the steps below:
 
-1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org](https://circuitpython.org/) to download the binary.
+1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the binary.
+
+> **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
 
 2. Install the necessary libraries from Adafruit CircuitPython bundle. You can download the bundle from [here](https://circuitpython.org/libraries). The libraries that used in this project and their version are list in this table below.
     - Sensor device

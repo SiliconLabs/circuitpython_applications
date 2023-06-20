@@ -5,10 +5,12 @@ Official binaries for all supported boards are available through [circuitpython.
 
 If you want to make changes, you might clone and re-build the source and firmware.bin file can be found in the build folder corresponding to the appropriate board, such as build-sparkfun_thingplus_matter_mgm240p_brd2704a
 
+> **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
+
 ## Flash firmware
 
 To flash the firmware file into the board, you need to use Simplicity Commander.
-You can install Simplicity Commander using Simplicity Studio or downloading standalone versions by following [UG162: Simplicity Commander Reference Guide](https://www.silabs.com/documents/public/user-guides/ug162-simplicity-commander-reference-guide.pdf).
+You can install Simplicity Commander using Simplicity Studio or downloading standalone version by following [this Knowledge Article](https://community.silabs.com/s/article/simplicity-commander?language=en_US).
 
 To flash the firmware into the xG24 kit using Simplicity Commander, follow these simple steps:
 

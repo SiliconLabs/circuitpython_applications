@@ -29,6 +29,9 @@ The xG24 Dev Kit and TFT display can connect via SPI interface. You can make the
 |  9 (PB0)  |  CS  |
 |  3 (PB2)  |  D/C  |
 
+## Prerequisites ##
+
+Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpython.md).
 
 ## Setup ##
 
@@ -45,6 +48,8 @@ To run the example you need to install Thonny editor, then follow the below step
 **Note:**
 
 - Make sure that you have flashed the corresponding CircuitPython firmware for your board. You can visit [circuitpython.org](https://circuitpython.org/board/silabs_devkit_xg24_brd2601b/) to download the firmware.
+
+> **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
 
 ## How it works ##
 

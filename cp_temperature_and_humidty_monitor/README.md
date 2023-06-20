@@ -19,11 +19,17 @@ The block diagram of this application is shown in the image below:
 The RGB LED Matrix display can easily connect with Silicon Labs
 EFR32xG24 Dev Kit via a Qwiic connector.
 
+## Prerequisites ##
+
+Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpython.md).
+
 ## Setup ##
 
 To run the example you need to install **Thonny** editor and then follow the steps below:
 
-1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org](https://circuitpython.org/) to download the binary.
+1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the binary.
+
+> **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
 
 2. Install the necessary libraries from the Adafruit CircuitPython bundle. You can download the bundle from [here](https://circuitpython.org/libraries). The libraries that were used in this project and their version are listed in the table below.
 
