@@ -13,7 +13,7 @@
 
 # Silicon Labs CircuitPython Applications #
 
-[![Version Badge](https://img.shields.io/badge/-v1.1.0-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
+[![Version Badge](https://img.shields.io/badge/-v1.2.0-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
 [![CircuitPython](https://img.shields.io/badge/CircuitPython-v8.2.0+-green)](https://circuitpython.org/downloads?q=silabs)
 ![License badge](https://img.shields.io/badge/License-Zlib-green)
 
@@ -27,10 +27,11 @@ All examples in this repository are considered to be EXPERIMENTAL QUALITY, which
 |  1 | CircuitPython - Bluetooth - Distance Monitor (VL53L1X) | [Click Here](./cp_bluetooth_distance_monitor)|
 |  2 | CircuitPython - Bluetooth - Environmental Sensing (CCS811/BME280) | [Click Here](./cp_bluetooth_environmental_sensing) |
 |  3 | CircuitPython - Bluetooth - Neopixel Humidity Gauge (SHTC3) | [Click Here](./cp_bluetooth_neopixel_humidity_gauge) |
-|  4 | CircuitPython - Non-Wireless Display Demo (IS31FL3741) | [Click Here](./cp_non_wireless_display_demo) |
-|  5 | CircuitPython - RGB Display Drawing (ILI9341) | [Click Here](./cp_rgb_display_drawing_ili9341) |
-|  6 | CircuitPython - Temperature and Humidity Monitor with LED Matrix Display (SI2071/IS31FL3741) | [Click Here](./cp_temperature_and_humidty_monitor) |
-|  7 | CircuitPython - xG24 Dev Kit Sensors (ILI9341) | [Click Here](./cp_xg24_dev_kit_sensors) |
+|  4 | CircuitPython - Bluetooth - Light Detector (AS7265x) | [Click Here](./cp_bluetooth_light_detector) |
+|  5 | CircuitPython - Non-Wireless Display Demo (IS31FL3741) | [Click Here](./cp_non_wireless_display_demo) |
+|  6 | CircuitPython - RGB Display Drawing (ILI9341) | [Click Here](./cp_rgb_display_drawing_ili9341) |
+|  7 | CircuitPython - Temperature and Humidity Monitor with LED Matrix Display (SI2071/IS31FL3741) | [Click Here](./cp_temperature_and_humidty_monitor) |
+|  8 | CircuitPython - xG24 Dev Kit Sensors (ILI9341) | [Click Here](./cp_xg24_dev_kit_sensors) |
 
 
 ## Get CircuitPython firmware ##
