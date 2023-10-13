@@ -1,5 +1,8 @@
 # CircuitPython - RGB Display Drawing (ILI9341) #
 
+![Type badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_rgb_display_drawing_ili9341_common.json&label=Type&query=type&color=green)
+![Technology badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_rgb_display_drawing_ili9341_common.json&label=Technology&query=technology&color=green)
+![License badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_rgb_display_drawing_ili9341_common.json&label=License&query=license&color=green)
 ## Summary ##
 
 This example application code demonstrates how to use CircuitPython and the adafruit_rgb_display and adafruit_touchscreen drivers on Silabs development kits, such as "Sparkfun ThingPlus Matter board," the "xG24 explorer kit," and the "xG24 devkit."
@@ -44,17 +47,21 @@ Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpytho
 
 To run the example you need to install **Thonny** editor and then follow the steps below:
 
-1. Install the necessary libraries from Adafruit CircuitPython bundle. You can download the bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle). To upload the libraries to CircuitPython device.
-
-2. Upload all the files in lib folder in to CircuitPython device.
-
-3. Copy the content of the **code.py** file in the src folder and paste it to the **code.py** file on the CircuitPython device.
-
-4. Run the scripts on the board.
-
-**Note:** Make sure that you have flashed the corresponding CircuitPython firmware for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the firmware.
+1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the binary.
 
 > **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
+
+2. The lib folder on github contains the necessary library files. You can get updates from the bundle [here](https://circuitpython.org/libraries). The libraries used in this project are listed below.
+
+    | Library           | Version           |
+    |:----------------- |:------------------|
+    | adafruit_imageload |       1.17.1       |
+    | adafruit_ili9341  |       1.3.8      |
+    | adafruit_touchscreen |       1.2.1      |
+
+3. Upload all the files and folders from the device_root folder to the CircuitPython device. The files and folders should be copied into the root of the file system on the target device.
+
+4. Run the scripts on the board.
 
 ## How it Works ##
 

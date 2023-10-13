@@ -1,5 +1,8 @@
 # CircuitPython - Non-Wireless Display Demo (IS31FL3741) #
 
+![Type badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_non_wireless_display_demo_common.json&label=Type&query=type&color=green)
+![Technology badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_non_wireless_display_demo_common.json&label=Technology&query=technology&color=green)
+![License badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_non_wireless_display_demo_common.json&label=License&query=license&color=green)
 ## Overview ##
 
 This application code demonstrates the integration of CircuitPython into Silicon Labs Development Kits. It also provides support how to use of an Adafruit IS31FL3741 LED display with Silicon Labs Development Kits. The example showcases how to program the Silabs devkits using CircuitPython and how to display text on Adafruit LED Displays. In this example, you can see how a text displayed on the LED Display: **"Silabs now supports CircuitPython!!!"**.
@@ -22,6 +25,7 @@ The RGB LED Matrix can easily connected with Sparkfun Thing Plus for Matter - MG
 
 Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpython.md).
 
+
 ## Setup ##
 
 To run the example you need to install **Thonny** editor and then follow the steps below:
@@ -30,13 +34,17 @@ To run the example you need to install **Thonny** editor and then follow the ste
 
 > **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
 
-2. Install the necessary libraries from Adafruit CircuitPython bundle. You can download the bundle from [here](https://circuitpython.org/libraries).
+2. The lib folder on github contains the necessary library files. You can get updates from the bundle [here](https://circuitpython.org/libraries). The libraries used in this project are listed below.
 
-3. Upload all the libraries and files of the lib folder to the CircuitPython device. The binary files should not be uploaded to lib folder in the device, they should have the same hierarchy as the **code.py** file.
+    | Library           | Version           |
+    |:----------------- |:------------------|
+    | adafruit_framebuf |       1.6.1       |
+    | adafruit_is31fl3741 |       1.4.1      |
 
-4. Copy the content of the **code.py** and paste it to the **code.py** file on the CircuitPython device.
 
-5. Run the scripts on the board.
+3. Upload all the files and folders from the device_root folder to the CircuitPython device. The files and folders should be copied into the root of the file system on the target device.
+
+4. Run the scripts on the board.
 
 ## How it Works ##
 

@@ -1,5 +1,8 @@
 # CircuitPython - xG24 Dev Kit Sensors (ILI9341) #
 
+![Type badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_xg24_dev_kit_sensors_common.json&label=Type&query=type&color=green)
+![Technology badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_xg24_dev_kit_sensors_common.json&label=Technology&query=technology&color=green)
+![License badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_xg24_dev_kit_sensors_common.json&label=License&query=license&color=green)
 ## Summary ##
 
 This project demonstrates how to use the Silicon Labs xG24 Dev Kit with CircuitPython language.
@@ -35,21 +38,22 @@ Getting started with [CircuitPython on EFR32 boards](../doc/running_circuitpytho
 
 ## Setup ##
 
-To run the example you need to install Thonny editor, then follow the below steps:
+To run the example you need to install **Thonny** editor and then follow the steps below:
 
-1. Install the necessary libraries from Adafruit CircuitPython bundle. You can download the bundle from [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle). To upload the libraries to CircuitPython device.
-
-2. Upload all the files in **lib** folder into CircuitPython device.
-
-3. Copy the content of the code.py file into the src folder and paste it to the code.py file on the CircuitPython device.
-
-4. Run the scripts on the board.
-
-**Note:**
-
-- Make sure that you have flashed the corresponding CircuitPython firmware for your board. You can visit [circuitpython.org](https://circuitpython.org/board/silabs_devkit_xg24_brd2601b/) to download the firmware.
+1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the binary.
 
 > **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
+
+2. The lib folder on github contains the necessary library files. You can get updates from the bundle [here](https://circuitpython.org/libraries). The libraries used in this project are listed below.
+
+    | Library           | Version           |
+    |:----------------- |:------------------|
+    | adafruit_display_text |       2.28.1       |
+    | adafruit_ili9341  |       1.3.8      |
+
+3. Upload all the files and folders from the device_root folder to the CircuitPython device. The files and folders should be copied into the root of the file system on the target device.
+
+4. Run the scripts on the board.
 
 ## How it works ##
 

@@ -58,15 +58,58 @@ If something goes wrong with the board, you can reset it. Pressing CTRL+D when t
 
 **Thonny** is a simple code editor that works with the Adafruit CircuitPython boards. 
 
-Config serial: Tools > Options > Interpreter > Select Circuitpython(generic) > Select Port Jlink CDC UART Port
-
 ### Running CircuitPython scripts ###
 
 At the boot stage, two scripts will be run (if not booting in safe mode). First, the file  boot.py  will be executed. The file **boot.py** can be used to perform the initial setup. Then, after boot.py has been completed, the file **code.py** will be executed.  
 
 After code.py has finished executing, a REPL prompt will be presented on the serial port. Other files can also be executed by using the **Thonny** editors or using **Ampy** tool.
 
+## Thonny ##
 ![Thony](cp_thony.png)
+
+### Download and install Thonny
+
+  * [Download Thonny](https://thonny.org/)
+
+### Connect to the serial prompt of the target board
+
+  * Open the interpreter configuration
+
+    ![Com](cp_thonny_com.png)
+  
+  * Select Port Jlink CDC UART Port 
+
+    ![Interpreter](cp_thonny_interpreter.png)
+
+### Upload the project files
+
+  * Show Files and Shell views
+
+    ![ShowFiles](cp_thonny_files.png)
+
+  * Select and upload application files from the device_root folder
+
+    ![UploadFiles](cp_thonny_upload.png)
+
+  * The application files are uploaded to the target device
+
+    ![UploadedFiles](cp_thonny_uploaded.png)
+
+### Run the application
+
+  * Open the code.py from the target device and push Run current script (F5) button
+    
+    ![RunApplication](cp_thonny_open_code.png)
+
+  * The application should be running on the target device, you can check the log output in the Shell window
+    
+    ![RunApplicationLog](cp_thonny_run_code.png)
+
+
+> **_NOTE:_** The application files are permanently stored on the target device, so the uploaded application should run automatically if the target device is reset or powered up while the serial prompt is not connected via Thonny or other tools like Ampy.
+
+
+## Ampy ##
 
 With the boards which support USB mass storage, we can drag the files to the board file system. However, because the EFR32 boards don’t support USB mass storage, we need to use a tool like **Ampy** to copy the file to the board. You can use the latest version of **Ampy** and its  command to copy the module directories to the board.
 

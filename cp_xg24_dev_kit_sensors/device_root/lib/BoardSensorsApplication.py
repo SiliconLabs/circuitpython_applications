@@ -48,8 +48,8 @@ class BoardSensorsApplication:
         self.logger("Application Initialization")
            
     def boot_screen(self):
-        self.display.draw_image("lib/silabs_big_logo.bmp", x= 90, y = 80)
-        self.display.draw_image("lib/cpython_logo.bmp", x = 220, y = 180)
+        self.display.draw_image("silabs_big_logo.bmp", x= 90, y = 80)
+        self.display.draw_image("cpython_logo.bmp", x = 220, y = 180)
         self.logger("Show Silabs logo and Circuit Python logo for 5 seconds...")
         sleep(5)
         for _ in range(2):
@@ -67,8 +67,8 @@ class BoardSensorsApplication:
         self.display.draw_text(text = "Orientation", x = 10, y = 160)
         self.display.draw_text(text = "Acceleration", x = 230, y = 160)
         self.display.draw_vline(x = 10, y = 190, width = 300, height = 2)
-        self.display.draw_image("lib/silabs_small_logo.bmp", x = 220, y = 195)
-        self.display.draw_image("lib/cpython_logo.bmp", x = 40, y = 195)
+        self.display.draw_image("silabs_small_logo.bmp", x = 220, y = 195)
+        self.display.draw_image("cpython_logo.bmp", x = 40, y = 195)
 
     def get_sensor_param(self):
         self.sensor_dict["Temperature"] = sensor.temperature()

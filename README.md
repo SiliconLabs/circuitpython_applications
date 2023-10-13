@@ -13,7 +13,7 @@
 
 # Silicon Labs CircuitPython Applications #
 
-[![Version Badge](https://img.shields.io/badge/-v1.2.0-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
+[![Version Badge](https://img.shields.io/badge/-v1.2.1-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
 [![CircuitPython](https://img.shields.io/badge/CircuitPython-v8.2.0+-green)](https://circuitpython.org/downloads?q=silabs)
 ![License badge](https://img.shields.io/badge/License-Zlib-green)
 
@@ -47,16 +47,14 @@ continuous builds. Full release notes are available through
 
 ## Project structure
 
-* **bin**
-  * The bin folder contains binary files required by the project. (e.g.: fonts, pictures)
-* **lib**
-  * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
-* **src**
-  * The src folder provides the code.py named file, this file is the entry point of the example project.
+* **device_root**
+  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
+  * **lib**
+    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
-The files from the src and bin folders should be copied into the root of the target board's file system. 
 
-Libraries and other application modules should be copied from the lib folder into the lib named folder on the target board.
+Ensure that the files and folders from the device_root folder are copied into the root of the target board's file system. 
+
 
 ## Documentation ##
 

@@ -86,7 +86,7 @@ class DrawApplication():
     def show_start_up(self):
         
         # show Silabs big logo
-        image, palette = load("lib/silabs80.bmp")
+        image, palette = load("silabs80.bmp")
         logo_silabs80 = TileGrid(image, pixel_shader = palette,
                                  x=80, y=60)
         self.group.append(logo_silabs80)
@@ -127,12 +127,12 @@ class DrawApplication():
                 self.bitmap[i,j] = self.pen_color
     
     def show_footer_logo(self):
-        image, palette = load("lib/cpython.bmp")
+        image, palette = load("cpython.bmp")
         logo_cpython = TileGrid(image, pixel_shader = palette,
                                 x=0, y=200)
         self.group.append(logo_cpython)
 
-        image, palette = load("lib/silabs.bmp")
+        image, palette = load("silabs.bmp")
         logo_silabs = TileGrid(image, pixel_shader = palette,
                                x=240, y=200)
         self.group.append(logo_silabs)

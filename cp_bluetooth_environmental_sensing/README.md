@@ -1,5 +1,8 @@
 # CircuitPython - Bluetooth - Environmental Sensing (CCS811/BME280) #
 
+![Type badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_bluetooth_environmental_sensing_common.json&label=Type&query=type&color=green)
+![Technology badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_bluetooth_environmental_sensing_common.json&label=Technology&query=technology&color=green)
+![License badge](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/SiliconLabs/application_examples_ci/master/circuitpython/cp_bluetooth_environmental_sensing_common.json&label=License&query=license&color=green)
 ## Overview ##
 
 This project aims to implement an environmental sensing system using Sparkfun Thing Plus for Matter - MGM240 development kits and external sensors integrated with the BLE wireless stack and CircuitPython.
@@ -48,7 +51,8 @@ To run the example you need to install **Thonny** editor and then follow the ste
 
 > **_NOTE:_** The examples in this repository require CircuitPython v8.2.0 or higher.
 
-2. Install the necessary libraries from Adafruit CircuitPython bundle. You can download the bundle from [here](https://circuitpython.org/libraries). The libraries that used in this project and their version are list in this table below.
+2. The lib folder on github contains the necessary library files. You can get updates from the bundle [here](https://circuitpython.org/libraries). The libraries used in this project are listed below.
+
     - Sensor device
 
       | Library           | Version           |
@@ -64,15 +68,10 @@ To run the example you need to install **Thonny** editor and then follow the ste
       | adafruit_framebuf |       1.6.1       |
       | adafruit_ssd1306  |       2.12.12     |
 
-3. Upload all the libraries and files of the lib folder to the CircuitPython device. The files in binary folder should not be uploaded to lib folder in the device, they should have the same hierarchy as the **code.py** file.
 
-4. Copy the content of the **code.py** and paste it to the **code.py** file on the CircuitPython device.
+3. Upload all the files and folders from the device_root folder to the CircuitPython device. The files and folders should be copied into the root of the file system on the target device.
 
-    - Sensor device: [code.py](application/sensor/code.py)
-
-    - Client device: [code.py](application/client/code.py)
-
-5. Run the scripts on the board.
+4. Run the scripts on the board.
 
 ## How it Works ##
 

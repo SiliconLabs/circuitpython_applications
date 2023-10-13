@@ -40,7 +40,7 @@ from time import sleep
 
 class SensorApp():        
     def __init__(self, i2c,) -> None:
-        self.matrix = LedMatrixBuffer(i2c = i2c, address = 0x31)
+        self.matrix = LedMatrixBuffer(i2c = i2c, address = 0x30)
         self.matrix.set_led_scaling(0x60)
         self.matrix.global_current = 0x05
         self.matrix.enable = True
