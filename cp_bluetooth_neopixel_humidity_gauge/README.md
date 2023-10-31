@@ -39,7 +39,7 @@ The gathered humidity data is displayed on the connected NeoPixel Ring.
 
 ## Setup ##
 
-To run the example you need to install **Thonny** editor and then follow the steps below:
+To run the example you need to install **[Thonny](https://thonny.org/)** editor and then follow the steps below:
 
 1. Flash the corresponding CircuitPython binary for your board. You can visit [circuitpython.org/downloads](https://circuitpython.org/downloads?q=silabs) to download the binary.
 

@@ -13,7 +13,7 @@
 
 # Silicon Labs CircuitPython Applications #
 
-[![Version Badge](https://img.shields.io/badge/-v1.2.1-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
+[![Version Badge](https://img.shields.io/badge/-v1.3.0-green)](https://github.com/SiliconLabs/circuitpython_applications/releases)
 [![CircuitPython](https://img.shields.io/badge/CircuitPython-v8.2.0+-green)](https://circuitpython.org/downloads?q=silabs)
 ![License badge](https://img.shields.io/badge/License-Zlib-green)
 
@@ -24,14 +24,16 @@ All examples in this repository are considered to be EXPERIMENTAL QUALITY, which
 
 | No | Example name | Link to example |
 |:--:|:-------------|:---------------:|
-|  1 | CircuitPython - Bluetooth - Distance Monitor (VL53L1X) | [Click Here](./cp_bluetooth_distance_monitor)|
-|  2 | CircuitPython - Bluetooth - Environmental Sensing (CCS811/BME280) | [Click Here](./cp_bluetooth_environmental_sensing) |
-|  3 | CircuitPython - Bluetooth - Neopixel Humidity Gauge (SHTC3) | [Click Here](./cp_bluetooth_neopixel_humidity_gauge) |
-|  4 | CircuitPython - Bluetooth - Light Detector (AS7265x) | [Click Here](./cp_bluetooth_light_detector) |
-|  5 | CircuitPython - Non-Wireless Display Demo (IS31FL3741) | [Click Here](./cp_non_wireless_display_demo) |
-|  6 | CircuitPython - RGB Display Drawing (ILI9341) | [Click Here](./cp_rgb_display_drawing_ili9341) |
-|  7 | CircuitPython - Temperature and Humidity Monitor with LED Matrix Display (SI2071/IS31FL3741) | [Click Here](./cp_temperature_and_humidty_monitor) |
-|  8 | CircuitPython - xG24 Dev Kit Sensors (ILI9341) | [Click Here](./cp_xg24_dev_kit_sensors) |
+|  1 | CircuitPython - Bluetooth - SoC - Blinky | [Click Here](./cp_bluetooth_blinky) |
+|  2 | CircuitPython - Bluetooth - Distance Monitor (VL53L1X) | [Click Here](./cp_bluetooth_distance_monitor)|
+|  3 | CircuitPython - Bluetooth - Environmental Sensing (CCS811/BME280) | [Click Here](./cp_bluetooth_environmental_sensing) |
+|  4 | CircuitPython - Bluetooth - Neopixel Humidity Gauge (SHTC3) | [Click Here](./cp_bluetooth_neopixel_humidity_gauge) |
+|  5 | CircuitPython - Bluetooth - Light Detector (AS7265x) | [Click Here](./cp_bluetooth_light_detector) |
+|  6 | CircuitPython - Non-Wireless Display Demo (IS31FL3741) | [Click Here](./cp_non_wireless_display_demo) |
+|  7 | CircuitPython - RGB Display Drawing (ILI9341) | [Click Here](./cp_rgb_display_drawing_ili9341) |
+|  8 | CircuitPython - Temperature and Humidity Monitor with LED Matrix Display (SI2071/IS31FL3741) | [Click Here](./cp_temperature_and_humidty_monitor) |
+|  9 | CircuitPython - xG24 Dev Kit Sensors (ILI9341) | [Click Here](./cp_xg24_dev_kit_sensors) |
+
 
 
 ## Get CircuitPython firmware ##
